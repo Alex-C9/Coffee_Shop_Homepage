@@ -12,12 +12,14 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
     height: 100vh;
-    padding: 70px;
+    padding: 40px;
     
 }
 
-h1, .front, a{
+h1, .hero, a{
     margin: 0;
     color:  whitesmoke;
 }
@@ -25,7 +27,8 @@ h1, .front, a{
 h1 {
     font-size: 56px;
     font-weight: 800px;
-    margin-left: 150px;
+    margin-left: 45px;
+    white-space: nowrap;
 }
 
 a {
@@ -38,12 +41,58 @@ ul {
 
 .nav {
     display: flex;
-    align-items: center;
+    
 }
 
 .menu ul{
     display: flex;
-    gap: 20px;
+    gap: 50px;
+    font-size: 20px;
     font-weight: 600;
+    margin-top: 35px;
+    margin-left: 75px;
+}
+
+.menu li {
+    white-space: nowrap;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    margin-left: 275px;
     margin-top: 30px;
+    font-size: 30px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    font-family: cursive;
+   
+}
+
+.hero .big {
+    font-size: 110px;
+    
+}
+
+.hero #small {
+    font-size: 24px;
+}
+
+.hero p {
+    margin: 0;
+}
+
+button {
+    background-color: darkgreen;
+    height: 75px;
+    width: 225px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
 }
