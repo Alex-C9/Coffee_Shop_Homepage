@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 .header {
@@ -14,8 +15,10 @@ body {
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
-    height: 100vh;
+    min-height: 100vh;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -41,7 +44,7 @@ ul {
 
 .nav {
     display: flex;
-    
+    flex: 1;
 }
 
 .menu ul{
@@ -50,7 +53,8 @@ ul {
     font-size: 20px;
     font-weight: 600;
     margin-top: 35px;
-    margin-left: 75px;
+    margin-left: 75px; 
+    flex-wrap: wrap;
 }
 
 .menu li {
@@ -67,15 +71,18 @@ ul {
 
 .hero {
     display: flex;
+    flex: 1;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 300px;
     font-family: cursive;
-   
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 150px;
 }
 
 .hero .big {
-    font-size: 110px;
+    font-size: 9vh;
     
 }
 
