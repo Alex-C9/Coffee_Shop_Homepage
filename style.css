@@ -103,3 +103,53 @@ button {
     color: white;
     margin-top: 20px;
 }
+
+.content {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: auto;
+    padding-right: 200px;
+    padding-top: 80px;
+}
+
+h3 {
+    margin: 0;
+    color: brown;
+    padding-bottom: 40px;
+}
+
+h2{
+    font-size: 40px;
+    margin: 0;
+    font-weight: 550;
+    color: #555555;
+}
+
+.main p {
+    line-height: 2.1;
+    color: grey;
+    font-size: 18px;
+}
+
+#cappu {
+   position: relative;
+   bottom: 85vh;
+   left: 20vh;
+   width: 50vh;
+   height: 65vh;
+} 
+
+#outside {
+    position: relative;
+    width: 50vh;
+    height: 50vh;
+    bottom: 110vh;
+    left: 45vh;
+}
