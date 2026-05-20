@@ -104,10 +104,14 @@ button {
     margin-top: 20px;
 }
 
-.content {
+.content, .third {
     background-color: antiquewhite;
+}
+
+.content {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .main {
@@ -125,14 +129,13 @@ h3 {
     padding-bottom: 40px;
 }
 
-h2{
+h2, h4{
     font-size: 40px;
     margin: 0;
     font-weight: 550;
-    color: #555555;
 }
 
-.main p {
+.para {
     line-height: 2.1;
     color: grey;
     font-size: 18px;
@@ -152,4 +155,54 @@ h2{
     height: 50vh;
     bottom: 110vh;
     left: 45vh;
+}
+
+.grey {
+    color: #555555;
+}
+
+.secondary {
+    background-color: white;
+    height: 90vh;
+}
+
+.post {
+    width: 50vh;
+    height: 65vh; 
+}
+
+.pictures {
+    margin-top: 6vh;
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.secondary h2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.main h4 {
+    font-size: 20px;
+}
+
+#board {
+    position: relative;
+    bottom: 60vh;
+    left: 20vh;
+    width: 50vh;
+    height: 65vh;
+}
+
+#seating {
+    position: relative;
+   bottom: 40vh;
+   right: 5vh;
+   width: 45vh;
+   height: 50vh;
 }
